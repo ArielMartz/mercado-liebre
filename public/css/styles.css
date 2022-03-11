@@ -1,0 +1,241 @@
+.main-header {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+}
+.banner {
+    margin-top: 166px;
+}
+.main-header-topbar {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main-header-topbar img {
+    width: 100%;
+}
+
+.main-header-topbar a {
+    max-width: 150px;
+}
+.search-bar {
+    display: flex;
+    padding: 10px;
+    width: 50%;
+}
+
+.search-form {
+    display: flex;
+    flex-grow: 1;
+    max-height: 33px;
+}
+.search-form .search-input {
+    flex-grow: 1;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    max-width: 400px;
+}
+.search-bar .search-form button {
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+}
+
+
+.main-header-bottombar {
+    display: none;
+}
+
+
+.main-header-bottombar ul a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 0;
+}
+
+
+.main-header-bottombar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.search-icon {
+    background-color: white;
+    padding: 2px;
+    border: none;
+}
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.burger-menu {
+    text-align: center;
+    color: white;
+    background-color: #1259c3;
+    font-size: 14px;
+    padding: 8px;
+    margin: 10px auto;
+    width: 1em;
+    box-sizing: content-box;
+    border-radius: 5px;
+}
+
+
+.icons {
+    color: #1259c3;
+    font-size: 2em;
+    padding: 5px;
+}
+
+
+.product {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    background-color: white;
+}
+
+
+.product-content {
+    border-top: solid #ebebeb 1px;
+    padding: 0px 15px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.green-text {
+    color: #39b54a;
+}
+
+
+.truck-icon {
+    display: block;
+    font-size: 16px;
+    background-color: white;
+    border: solid 1px;
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+.container-products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.copyright {
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.copy-header {
+    margin-top: 10px;
+    max-width: 234px;
+}
+.wrapper {
+    width: 100%;
+    padding: 10px;
+}
+
+.price {
+    width: 30%;
+}
+.discount {
+    width: 70%;
+}
+
+.register-form,
+.login-form {
+    padding: 20px 15px;
+    margin-top: 50px;
+    width: 400px;
+    background: rgb(207, 204, 204);
+    margin: auto;
+    border-radius: 4px;
+}
+
+.register-form .campo,
+.login-form .campo {
+    margin-bottom: 30px;
+}
+.register-form .campo .title-label {
+    margin-bottom: 5px;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+}
+
+.register-form .hide,
+.login-form .hide {
+    display: none;
+}
+
+.register-form .input-campo,
+.login-form .input-campo {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.register-form .category-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.register-form .category-container .input-campo {
+    position: relative;
+    right: 40%;
+}
+
+.register-form .label-category {
+    width: 50%;
+}
+
+.form-buttons {
+    background-color: #1259c3;
+    width: 100%;
+    margin: 20px 0;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.form-buttons:hover {
+    background-color: #0022aa;
+}
+
+.radio-buttons {
+    margin: 5px;
+}
+
+.login-form .error-message {
+    display: block;
+    color: red;
+    margin-top: 10px;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 14px;
+}

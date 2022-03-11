@@ -1,0 +1,59 @@
+@media (min-width: 481px) {
+.main-header {
+    position: static;
+}
+.register-form,.login-form {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.banner {
+    margin-top: 0;
+}
+.main-header-topbar a {
+    width: 33%;
+}
+.main-header-topbar div {
+    width: 33%;
+}
+.main-header-topbar h4 {
+    width: 33%;
+}
+.main-header-bottombar li a {
+    font-size: 14px;
+}
+.electro {
+    width: 50%;
+}
+.product-content .description {
+    display: block;
+    margin-top: 16px;
+    font-size: 16px;
+}
+.burger-menu {
+    display: none;
+}
+
+.copy-header {
+    font-size: 16px;
+    max-width: 168px;
+    text-align: right;
+}
+
+.main-header-bottombar {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.main-header-bottombar ul {
+    display: flex;
+}
+.main-header-bottombar li {
+    margin: 0 5px;
+}
+
+footer {
+    padding: 10px;
+    font-size: 16px;
+}
+};
